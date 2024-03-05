@@ -62,4 +62,8 @@ a {
 .weather-forecast-date{
     font-size: 16px;
     color:rgb(179, 174, 174) ;
+opacity: 0,6;
+}
+.weather-forecast-temparature-min{
+    opacity: 0,3;
 }
