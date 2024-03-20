@@ -61,4 +61,25 @@ console.log(response.data);
         let currentDate = new Date();
 
         currentDateELement.innerHTML = formatDate(currentDate);
-    
+    let forecastElement=document.querySelector("#forecast");
+    forecastElement.innerHTML='
+<div class="weather-forecast-day">
+                        <><div class="weather-forecast-date">
+        Thursday
+    </div><img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+        width="23px" /><div class="weather-forecast-temparature">
+            <span class="weather-forecast-temparature-max"><strong>23°c</strong></span>
+            <span class="weather-forecast-temparature-min">12°c</span>
+        </div></>
+</div> ';
+<div class="weather-forecast-day">
+                        <div class="weather-forecast-date">
+                        Thursday
+                        </div>
+ <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png" 
+width="23px"/>
+ <div class="weather-forecast-temparature">
+<span class="weather-forecast-temparature-max"><strong>23°c</strong></span>
+<span class="weather-forecast-temparature-min">12°c</span>
+ </div>
+</div>;
